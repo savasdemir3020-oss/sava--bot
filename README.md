@@ -1,18 +1,32 @@
 # Nova Market
 
-Türkçe, mobil uyumlu örnek e-ticaret vitrini. Harici kütüphane veya build adımı gerektirmez.
+Bu proje React + Vite ile hazırlanmış modern bir e-ticaret demo uygulamasıdır.
 
-## Çalıştırma
+## Kurulum
 
-`index.html` dosyasını tarayıcıda açabilir veya GitHub Pages ile yayınlayabilirsiniz.
+```bash
+npm install
+npm run dev
+```
+
+Tarayıcıda şu adrese gidin:
+
+```text
+http://localhost:3000
+```
+
+## Derleme
+
+```bash
+npm run build
+```
 
 ## Özellikler
 
-- Responsive ürün kataloğu ve kategori filtreleri
-- Ürün arama
-- Sepet, adet güncelleme ve silme
-- Sepetin tarayıcıda `localStorage` ile saklanması
-- Demo haber bülteni formu
-- Örnek ürün ve görseller
+- Ürün listesi ve kategori filtreleri
+- Arama kutusu
+- Sepet işlemleri (ekleme, silme, adet arttırma/azaltma)
+- Mobil uyumlu tasarım
+- Yerel depolama ile sepet kaydı
 
-> Ödeme akışı demo amaçlıdır; gerçek ödeme, kullanıcı hesabı, sipariş yönetimi veya backend bağlantısı içermez. Canlıya almadan önce güvenli bir sunucu, stok/sipariş yönetimi ve ödeme sağlayıcısı entegrasyonu ekleyin.
+> Bu proje demo amaçlıdır; gerçek ödeme sistemi yoktur.
